@@ -1,11 +1,80 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: 'montserrat';
 }
 
 html, body {
     height: 100%;
     width: 100%;
 }
+
+.page-1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dadada;
+}
+
+.cursor{
+    z-index: 9;
+   height: 7.5vw;
+   width: 7.5vw;
+   position: fixed;
+   background-color: #ff5f38;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.cursor p{
+    font-family: 'poppins';
+    font-weight: 400; 
+}
+
+.page-1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute; 
+    /* to keep the video in bg we have given it postition absolute */
+}
+
+.page1-content{
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    padding-bottom: .5vh;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ nav {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    width: 100%;
+    font-family: 'montserrat';
+    /* background: #000; */
+ }
+
+ nav h3,h4{
+    font-size: 1.3vw;
+    font-weight: 400;
+ }
+
+ .page1-content h1 span {
+    font-family: 'poppins' !important; 
+    font-weight: 600;
+    font-size: 23vw;
+    color: #ededed;
+ }
