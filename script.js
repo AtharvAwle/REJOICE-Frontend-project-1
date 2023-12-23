@@ -1,6 +1,3 @@
-// scroll trigger js
-
-
 function cursorFollow(){
     let page1Content = document.querySelector(".page1-content")
 let cursor = document.querySelector(".cursor")
