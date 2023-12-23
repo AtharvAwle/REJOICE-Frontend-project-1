@@ -76,9 +76,10 @@ html, body {
 
  .page1-content h1 span {
     font-family: 'poppins'; 
-    font-weight: 700;
+    font-weight: 600;
     font-size: 22vw;
     color: #ededed;
+    display: inline-block;
  }
 
  .page-2 {
@@ -212,7 +213,7 @@ html, body {
  }
 
  .page-5{
-    height: 100vw;
+    height: 80vw;
     width: 100%;
     position: relative;
  }
@@ -261,3 +262,24 @@ html, body {
 
 
  /* swipper js ka code khatam */
+
+ /* preloader walla */
+ .preloader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #000;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .preloader h3{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1.7vw;
+    color: #fff;
+ }

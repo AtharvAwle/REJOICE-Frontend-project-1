@@ -37,3 +37,36 @@ cursorFollow()
       });
   }
   swiperKaKamal()
+
+ let time= gsap.timeline()
+
+ time.from(".preloader h3",{
+    x:50,
+    opacity:0,
+    duration:1,
+    stagger: 0.1
+ })
+
+ time.to(".preloader h3",{
+    opacity:0,
+    x:-10,
+    duration:1,
+    stagger:0.1
+ })
+
+ time.to(".preloader",{
+    opacity:0
+ })
+ //  main text animation
+
+time.from(".page1-content h1 span",{
+    y:100,
+    opacity:0,
+    duration:0.5,
+    stagger:0.1,
+    delay:-0.5
+})
+ time.to(".preloader",{
+    display:"none"
+ })
+
