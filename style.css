@@ -230,3 +230,34 @@ html, body {
     width: 96%;
     margin-left: 2%;
  }
+
+ .reelSwiper{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+ }
+
+ /* swipper js ka code hai abbse */
+ .swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 18%;
+    object-fit: cover;
+  }
+
+
+ /* swipper js ka code khatam */
