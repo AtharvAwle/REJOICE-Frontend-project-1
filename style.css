@@ -28,7 +28,8 @@ html, body {
    display: flex;
    align-items: center;
    justify-content: center;
-   
+   transform: translate(-50% , -50%);
+   /* transition-delay: 0.001s; */
 }
 
 .cursor p{
@@ -75,6 +76,31 @@ html, body {
  .page1-content h1 span {
     font-family: 'poppins' !important; 
     font-weight: 600;
-    font-size: 23vw;
+    font-size: 22vw;
     color: #ededed;
+ }
+
+ .page-2 {
+    height: 100vh;
+    width: 100%;
+    padding: 3vw;
+ }
+
+ .page2-upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+ }
+ .page2-upper h3,h2{
+    font-size: 1.5vw;
+    font-weight: 400;
+ }
+
+ .page2-lower{
+    font-family: 'poppins';
+    padding-top: 1vw;
+    font-size: 3.5vw;
+    font-weight: 400;
+    text-align: left;
+    
  }
