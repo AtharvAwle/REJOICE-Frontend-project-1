@@ -24,7 +24,6 @@ page1Content.addEventListener("mouseleave", function(){
 cursorFollow()
 
 
-
   function swiperKaKamal(){
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
@@ -57,7 +56,7 @@ cursorFollow()
  time.to(".preloader",{
     opacity:0
  })
- //  main text animation
+ //  main ka text animation hai yaha
 
 time.from(".page1-content h1 span",{
     y:100,
@@ -70,3 +69,10 @@ time.from(".page1-content h1 span",{
     display:"none"
  })
 
+ time.from(".footer .footer-text h1 span",{
+    y:100,
+    opacity:0,
+    duration:0.5,
+    stagger:0.1,
+    delay:7
+})

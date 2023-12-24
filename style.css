@@ -11,6 +11,7 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: #ededed;
+    scroll-behavior: smooth;
 }
 
 .page-1 {
@@ -77,7 +78,7 @@ html, body {
  .page1-content h1 span {
     font-family: 'poppins'; 
     font-weight: 600;
-    font-size: 22vw;
+    font-size: 20vw;
     color: #ededed;
     display: inline-block;
  }
@@ -213,7 +214,7 @@ html, body {
  }
 
  .page-5{
-    height: 80vw;
+    height: 33vw;
     width: 100%;
     position: relative;
  }
@@ -282,4 +283,120 @@ html, body {
     font-weight: 400;
     font-size: 1.7vw;
     color: #fff;
+ }
+
+ .page-6{
+   height: 50vw;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .page-6 h3{
+   font-family: 'poppins';
+   font-size: 1vw;
+   font-weight: 400;
+   padding-bottom: 1vw;
+}
+
+/* .page-6 h3:hover{
+   text-decoration: underline;
+   animation-timing-function: linear;
+} */
+
+.page-6 h2{
+   font-size: 3vw;
+   /* background: #000;
+   color: #fff; */
+   color: #000;
+   text-decoration: underline;
+   padding: 0.6vw;
+   border-radius: 2vw;
+}
+
+ .footer{
+   height: 55vw;
+   width:100%;
+   background: #000;
+ }
+
+ .footer-upper , .footer-lower{
+   text-decoration: none;
+   padding: 2vw;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+ }
+
+ .footer-upper .left h2{
+   font-family: 'poppins';
+   font-weight: 200;
+   padding-bottom: 1vw;
+ }
+
+ .footer-upper .left button h3 {
+   color: #fff;
+   border: 1px solid #ccc;
+    background: #000000;
+    padding: 10px 10px;
+   font-family: 'poppins';
+   font-weight: 200; 
+ }
+
+ .footer-upper .left button h3:hover{
+   color: #000000;
+   border: 1px  #000000;
+    background: #ffffff;
+ }
+
+ .footer-upper .right{
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   gap: 4vw;
+ }
+
+ .footer-upper .right ul li{
+   margin-right: 3vw;
+   padding: 0.2vw;
+   list-style-type: none;
+   font-size: 1vw;
+ }
+
+ .footer-lower{
+   margin-top: 13vw;
+ }
+
+ .footer-lower .left h2{
+   font-size: 1vw;
+   font-family: 'poppins';
+   font-weight: 200;
+ }
+
+ .footer-lower .right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 3vw;
+   margin-right: 3vw;
+ }
+
+ .footer-lower .right h2{
+   font-size: 1vw;
+ }
+ .footer-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .footer-text h1 span{
+   font-family: 'poppins'; 
+    font-weight: 600;
+    font-size: 15vw;
+    color: #ededed;
+    display: inline-block;
  }
