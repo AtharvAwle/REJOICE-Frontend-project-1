@@ -74,5 +74,5 @@ time.from(".page1-content h1 span",{
     opacity:0,
     duration:0.5,
     stagger:0.1,
-    delay:7
+    delay:2
 })
