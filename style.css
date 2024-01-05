@@ -403,7 +403,7 @@ html, body {
 
 
  /* media query */
- @media screen and (min-width: 720px) {
+ /* @media screen and (min-width: 720px) {
    .page3-elem {
       height: 75vh;
       width: 100%;
@@ -413,4 +413,4 @@ html, body {
       justify-content: space-between;
    }
   
- }
+ } */
